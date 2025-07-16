@@ -80,18 +80,26 @@ button {
 
 }
 
-.about {
+.content {
     /* position: relative;
     /* padding: 55px; */
     /* margin-top: 20px; */
+    width: 1167px;
+    height: 407;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
 
 }
 
-.content {
-    width: 521px;
+/* .content {
+    /* width: 521px;
     height: 486px;
-    margin: 0 auto;
-}
+    margin: 0 auto; */
+/* padding-bottom: 30px;
+} */
 
 .content-abt {
     width: 521px;
@@ -120,9 +128,459 @@ button {
 .abt-content {
     width: 785px;
     height: 585px;
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-img {
+    background-color: #ff7b29;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
 }
 
 .abt-img {
     width: 500px;
     height: 530px;
+}
+
+.badge {
+    position: absolute;
+    border-radius: 12px;
+    padding: 10px 13px;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    font-family: "poppins", serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.award {
+    /* width: 150px;
+    height: 66px; */
+    top: 50px;
+    right: 550px;
+}
+
+.trophy-img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+
+.star {
+    width: 192px;
+    height: 68px;
+    bottom: 250px;
+    left: 50px;
+}
+
+/* .star-img {
+    width: 32px;
+    height: 32px;
+    display: block;
+} */
+
+
+
+.gmap {
+    top: 10px;
+    right: 10px;
+}
+
+.gmap-img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.gmap-text {
+    width: 113px;
+    height: 44px;
+}
+
+.container-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'poppins';
+}
+
+.input-box {
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+    background: #fff;
+
+}
+
+.location-details {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+
+}
+
+.exp-details {
+    font-weight: bold;
+    color: 222222;
+    font-size: 16px;
+}
+
+.explore-now button {
+    background-color: #fd8d3a;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 165px;
+    height: 60px;
+
+}
+
+.section-things {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #2d2d2d;
+}
+
+.title .highlight {
+    color: #ff7b29;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 1;
+    color: #2d2d2d;
+    justify-content: center;
+}
+
+.card-wrapper {
+    /* color: #fff; */
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 30px 25px;
+    background-color: #fff;
+    width: 280px;
+    text-align: left;
+    position: relative;
+}
+
+.section-cards {
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #fff;
+
+
+}
+
+.vacation-details {
+    text-align: justify;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: "poppins", serif;
+}
+
+.day {
+    color: #817b7b;
+    text-align: start !important;
+    margin: 20px;
+    display: flex;
+}
+
+.deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.deal-card {
+    background-color: #fff;
+    border-radius: 15px;
+    /* width: 270px;
+    height: 290px; */
+}
+
+.deal-card img {
+    /* height: 160px; */
+    /* width: 100%; */
+    object-fit: cover;
+    width: 200px;
+    height: 215px;
+    border-radius: 8px;
+}
+
+/* .deal-content {
+    padding: 20px;
+    text-align: left;
+} */
+
+
+
+.title-content {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.title-content h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.title-content span {
+    position: relative;
+    top: 12px;
+}
+
+.amount-vacation {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.amount-vacation h3 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.amount-vacation span {
+    position: relative;
+    top: 12px;
+    color: #ff7b29;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "poppins", serif;
+}
+
+.place span {
+
+    /* margin-bottom: 10px; */
+    color: #777;
+    font-size: 12px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "poppins", serif;
+}
+
+.old-price {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 11px;
+    position: relative;
+    top: 2px;
+}
+
+.new-price {
+    padding: 2px 8px;
+    font-size: 11px;
+    border-radius: 4px;
+    color: #f40707;
+    background: #eebc96;
+}
+
+.trip-days {
+    color: #888;
+    font-size: 13px;
+}
+
+.rating {
+    font-size: 12px;
+    color: #888;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: left;
+}
+
+.infodetails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.testimonial-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    gap: 60px;
+    width: 1103px;
+    height: 356px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.test-left h2 {
+    font-size: 48px;
+}
+
+.test-left h2 span {
+    color: #fd8d3a;
+}
+
+.test-left p {
+    font-size: 16px;
+    margin: 20px 25px;
+    padding: 10px 20px 30px;
+}
+
+.client-review {
+    font-size: 16px;
+    font-family: "Volkhov", serif;
+}
+
+.test-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.test-location {
+    font-family: 'poppins', serif;
+    font-size: 14px;
+}
+
+.hidden-part {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+    top: 60px;
+    left: 40px;
+}
+
+.subscribe-part {
+    background-color: #ff7b29;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'poppins', serif;
+    border-radius: 0 0 12px 15px;
+    padding: 60px 50px;
+    gap: 60px;
+    width: 1167px;
+    height: 407;
+    margin: 50px auto;
+}
+
+.form {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 20px;
+}
+
+.form input {
+    padding: 15px 130px 15px 20px;
+    width: 674px;
+    height: 68px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.form button {
+    padding: 5px 10px 10px 10px;
+    color: #fff;
+    background-color: #fd8d3a;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 225px;
+    bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: calc(100% -10px);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    width: 1167px;
+    height: 407;
+    margin: 50px auto;
+}
+
+.footer-details {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-details h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-details ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-details li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    width: 1167px;
+    height: 407;
+    margin: 50px auto;
+    display: flex;
+}
+
+.terms {
+    margin-right: 250px;
+    display: flex;
 }
