@@ -91,6 +91,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 30px;
+    flex: 1;
 
 }
 
@@ -154,7 +155,7 @@ button {
     position: absolute;
     border-radius: 12px;
     padding: 10px 13px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: white;
     box-shadow: 5px 10px 8px #888888;
     font-family: "poppins", serif;
@@ -164,10 +165,8 @@ button {
 }
 
 .award {
-    /* width: 150px;
-    height: 66px; */
-    top: 50px;
-    right: 550px;
+    top: 66px;
+    right: 648px;
 }
 
 .trophy-img {
@@ -176,25 +175,33 @@ button {
     display: block;
 }
 
-
 .star {
-    width: 192px;
-    height: 68px;
+    width: 168px;
+    height: 56px;
     bottom: 250px;
     left: 50px;
 }
 
-/* .star-img {
-    width: 32px;
-    height: 32px;
-    display: block;
-} */
-
-
+.star-val {
+    position: relative;
+    /* left: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    bottom: 2px;
+    left: 2px;
+}
 
 .gmap {
-    top: 10px;
-    right: 10px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 12px;
+    padding: 10px 13px;
+    width: 210px;
+    height: 50px;
+    position: relative;
+    right: 120px;
 }
 
 .gmap-img {
@@ -208,12 +215,27 @@ button {
     height: 44px;
 }
 
+.explore {
+    position: relative;
+    /* left: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    bottom: 46px;
+    left: 37px;
+}
+
+
 .container-location {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-    font-family: 'poppins';
+    font-family: 'poppins', serif;
+    position: relative;
+    left: 180px;
+
 }
 
 .input-box {
@@ -223,7 +245,13 @@ button {
     border-radius: 16px;
     align-items: center;
     background: #fff;
+    flex-wrap: wrap;
 
+}
+
+.location {
+    color: #817b7b;
+    font-size: 12px;
 }
 
 .location-details {
@@ -305,7 +333,7 @@ button {
 .day {
     color: #817b7b;
     text-align: start !important;
-    margin: 20px;
+    margin: 2px;
     display: flex;
 }
 
@@ -354,7 +382,7 @@ button {
 
 .title-content span {
     position: relative;
-    top: 12px;
+    top: 8px;
 }
 
 .amount-vacation {
@@ -466,11 +494,16 @@ button {
     font-size: 16px;
     margin: 20px 25px;
     padding: 10px 20px 30px;
+    position: relative;
+    right: 45px;
 }
 
 .client-review {
     font-size: 16px;
     font-family: "Volkhov", serif;
+    background: #FFFFFF;
+    width: 450px;
+    height: 60px;
 }
 
 .test-name {
@@ -482,6 +515,21 @@ button {
 .test-location {
     font-family: 'poppins', serif;
     font-size: 14px;
+}
+
+.ceo-name {
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    opacity: 0.4;
+    font-family: 'poppins', serif;
+
+}
+
+.ceo-location {
+    font-family: 'poppins', serif;
+    font-size: 14px;
+    opacity: 0.4;
 }
 
 .hidden-part {
@@ -578,9 +626,13 @@ button {
     height: 407;
     margin: 50px auto;
     display: flex;
+    position: relative;
+    bottom: 50px;
 }
 
 .terms {
     margin-right: 250px;
     display: flex;
+    position: relative;
+    left: 750px;
 }
